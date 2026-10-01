@@ -6,12 +6,39 @@
     <title>Advanced Layout 1</title>
     <link rel="stylesheet" href="../style.css">
     <style>
-      /* Doe hier jouw ding! */
+  
+    
+    body { 
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2fr 6fr 1fr;
+    gap: 1em;
+
+    }
+ header {
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+ }
+
+ footer {
+  
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+ }
+
+
+      
     </style>
+
+      
+    </body>
   </head>
   <body id="advanced-layout-1">
 
-    <header><h1>Advanced Layout 1</h1></header>
+    <header><h1>Advanced Layout wavsdb 1</h1></header>
 
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
 

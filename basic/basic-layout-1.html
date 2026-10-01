@@ -6,8 +6,30 @@
     <title>Basic Layout 1</title>
     <link rel="stylesheet" href="../style.css">
     <style>
+
       body {
         display: grid;
+        grid-template-columns: 1fr 4fr;
+        /*De grid-template-colums staan voor hoe breed de kolommen in een grid container zijn en hoeveel kolommen er zijn */
+        grid-template-rows: 2fr 6fr 1fr;
+        /*De grid-template-rows staan voor het aantal rijen in een Layout. (in dit geval is blauw de eerste rij en
+        die staat dus op 2fr) */
+        gap: 1em;
+
+      }
+
+      header {
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+
+      }
+
+      footer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+
       }
       /* Doe hier jouw ding! */
     </style>

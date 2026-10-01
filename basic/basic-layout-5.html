@@ -7,6 +7,63 @@
     <link rel="stylesheet" href="../style.css">
     <style>
       /* Doe hier jouw ding! */
+
+
+      body{ 
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr; 
+        /*kolommen zijn altijd verticaal (boven naar beneden)*/
+        grid-template-rows: 4fr 4fr 4fr 4fr;
+        /*rijen zijn altijd horizontaal (links naar rechts*/
+        gap: 3em;
+
+
+      }
+
+     header{ 
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start:1;
+      grid-row-end: 2;
+
+
+    }
+
+    nav{ 
+
+    grid-column-start: 1;  
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end: 3;
+
+
+    }
+
+    main{ 
+
+    grid-column-start: 2;  
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+
+
+
+    }
+
+    footer{
+
+    grid-column-start: 2;  
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+
+
+    }
+
+
+
     </style>
   </head>
   <body id="basic-layout-5">
